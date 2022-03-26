@@ -1,28 +1,29 @@
-# IA-SSD
+[![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2203.11139)
+[![GitHub Stars](https://img.shields.io/github/stars/yifanzhang713/IA-SSD?style=social)](https://github.com/yifanzhang713/IA-SSD)
+[![download](https://img.shields.io/github/downloads/yifanzhang713/IA-SSD/total.svg)](https://github.com/yifanzhang713/IA-SSD/releases)
+![visitors](https://visitor-badge.glitch.me/badge?page_id=yifanzhang713/IA-SSD)
 
-Not All Points Are Equal: Learning Highly Efficient Point-based Detectors for 3D LiDAR Point Clouds (CVPR 2022)
-## Introduction
-<!-- **Abstract**: -->
+# Not All Points Are Equal: Learning Highly Efficient Point-based Detectors for 3D LiDAR Point Clouds (CVPR 2022)
 
 This is the official implementation of ***IA-SSD*** (CVPR 2022), a simple and highly efficient point-based detector for 3D LiDAR point clouds. For more details, please refer to:
 
 **Not All Points Are Equal: Learning Highly Efficient Point-based Detectors for 3D LiDAR Point Clouds** <br />
-Yifan Zhang, Qingyong Hu*, Guoquan Xu, Yanxin Ma, Jianwei Wan, Yulan Guo
+Yifan Zhang, [Qingyong Hu*](https://qingyonghu.github.io/), Guoquan Xu, Yanxin Ma, Jianwei Wan, [Yulan Guo](http://yulanguo.me/)
+**[[Paper](https://arxiv.org/abs/2203.11139)] [[Video](https://www.youtube.com/watch?v=3jP2o9KXunA)]** <br />
 
-**[[Paper](https://arxiv.org/abs/2203.11139)]
 <p align="center"> <img src="docs/imgs/IA-SSD.png" width="100%"> </p>
 
 
 ## Getting Started
 ### Installation
 
-a. Clone this repository.
+a. Clone this repository
 ```shell
 git clone https://github.com/yifanzhang713/IA-SSD.git && cd IA-SSD
 ```
-b. Prepare the environment
+b. Configure the environment
 
-We deploy the project with detailed environment follows:
+We have tested this project with the following environments:
 * Ubuntu18.04/20.04
 * Python = 3.7
 * PyTorch = 1.1
@@ -30,8 +31,7 @@ We deploy the project with detailed environment follows:
 * CMake >= 3.13
 * spconv = 1.0 (or just comment the relevant code as it is not used in our work)
 
-
-You can also install higher versions above, please refer to  [OpenPCDet.md](OpenPCDet.md) and the [official github repository](https://github.com/open-mmlab/OpenPCDet) for more information. **Note that the max parallelism might be slightly lower because of the larger initial GPU memory footprint with updated `Pytorch` version.**
+You are encourage to try to install higher versions above, please refer to  [OpenPCDet.md](OpenPCDet.md) and the [official github repository](https://github.com/open-mmlab/OpenPCDet) for more information. **Note that the maximum number of parallel frames during inference might be slightly decrease due to the larger initial GPU memory footprint with updated `Pytorch` version.**
 
 
 c. Install `pcdet` toolbox.
