@@ -50,7 +50,7 @@ python setup.py develop
 
 d. Prepare the datasets. 
 
-Download the official KITTI and Waymo datasets and organize the unzipped files as follows:
+Download the official KITTI and Waymo datasets, then organize the unzipped files as follows:
 ```
 IA-SSD
 ├── data
