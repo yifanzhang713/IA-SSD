@@ -129,6 +129,8 @@ sh scripts/dist_test.sh ${NUM_GPUS} \
     --cfg_file cfgs/kitti_models/IA-SSD.yaml --batch_size ${BATCH_SIZE} --ckpt ${PTH_FILE}
 ```
 
+### Experimental results
+
 #### KITTI dataset
 
 Quantitative results of different approaches on KITTI dataset (*test* set):
@@ -138,7 +140,7 @@ Qualitative results of our IA-SSD on KITTI dataset:
 | ![z](docs/imgs/kitti_1.gif)    | ![z](docs/imgs/kitti_2.gif)   |
 | -------------------------------- | ------------------------------- |
 | ![z](docs/imgs/kitti_3.gif)    | ![z](docs/imgs/kitti_4.gif)   |
-* Here we deploy the model on the KITTI Tracking dataset for consecutive results.
+
 
 Quantitative results of different approaches on Waymo dataset (*validation* set):
 <p align="center"> <img src="docs/imgs/waymo_val.png" width="100%"> </p>
