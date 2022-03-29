@@ -2,7 +2,7 @@
 [![GitHub Stars](https://img.shields.io/github/stars/yifanzhang713/IA-SSD?style=social)](https://github.com/yifanzhang713/IA-SSD)
 ![visitors](https://visitor-badge.glitch.me/badge?page_id=yifanzhang713/IA-SSD)
 
-# Not All Points Are Equal: Learning Highly Efficient Point-based Detectors for 3D LiDAR Point Clouds (CVPR 2022)
+# Not All Points Are Equal: Learning Highly Efficient Point-based Detectors for 3D LiDAR Point Clouds (CVPR 2022, Oral)
 
 This is the official implementation of ***IA-SSD*** (CVPR 2022), a simple and highly efficient point-based detector for 3D LiDAR point clouds. For more details, please refer to:
 
@@ -190,3 +190,4 @@ This project is released under the [Apache 2.0 license](LICENSE).
 3. [3D-BoNet: Learning Object Bounding Boxes for 3D Instance Segmentation on Point Clouds](https://github.com/Yang7879/3D-BoNet) ![GitHub stars](https://img.shields.io/github/stars/Yang7879/3D-BoNet.svg?style=flat&label=Star)
 4. [SpinNet: Learning a General Surface Descriptor for 3D Point Cloud Registration](https://github.com/QingyongHu/SpinNet) ![GitHub stars](https://img.shields.io/github/stars/QingyongHu/SpinNet.svg?style=flat&label=Star)
 5. [SQN: Weakly-Supervised Semantic Segmentation of Large-Scale 3D Point Clouds with 1000x Fewer Labels](https://github.com/QingyongHu/SQN) ![GitHub stars](https://img.shields.io/github/stars/QingyongHu/SQN.svg?style=flat&label=Star)
+6. [SoTA-Point-Cloud: Deep Learning for 3D Point Clouds: A Survey](https://github.com/QingyongHu/SoTA-Point-Cloud) ![GitHub stars](https://img.shields.io/github/stars/QingyongHu/SoTA-Point-Cloud.svg?style=flat&label=Star)
