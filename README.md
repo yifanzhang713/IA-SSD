@@ -40,7 +40,7 @@ We have tested this project with the following environments:
     cd ..
     ```
 
-*You are encourage to try to install higher versions above, please refer to  [OpenPCDet.md](OpenPCDet.md) and the [official github repository](https://github.com/open-mmlab/OpenPCDet) for more information. **Note that the maximum number of parallel frames during inference might be slightly decrease due to the larger initial GPU memory footprint with updated `Pytorch` version.**
+*You are encouraged to try to install higher versions above, please refer to the [official github repository](https://github.com/open-mmlab/OpenPCDet) for more information. **Note that the maximum number of parallel frames during inference might be slightly decrease due to the larger initial GPU memory footprint with updated `Pytorch` version.**
 
 c. Install `pcdet` toolbox.
 ```shell
@@ -50,7 +50,7 @@ python setup.py develop
 
 d. Prepare the datasets. 
 
-Download the official KITTI and Waymo datasets, then organize the unzipped files as follows:
+Download the official KITTI with optional [road planes](https://drive.google.com/file/d/1d5mq0RXRnvHPVeKx6Q612z0YRO1t2wAp/view?usp=sharing) and Waymo datasets, Then organize the unzipped files as follows:
 ```
 IA-SSD
 ├── data
@@ -173,7 +173,7 @@ If you find this project useful in your research, please consider citing:
 ```
 
 ## Acknowledgement
--  This work is built upon the `OpenPCDet` (version `0.5`), an open source toolbox for LiDAR-based 3D scene perception. Please refer to [OpenPCDet.md](OpenPCDet.md) and the [official github repository](https://github.com/open-mmlab/OpenPCDet) for more information.
+-  This work is built upon the `OpenPCDet` (version `0.5`), an open source toolbox for LiDAR-based 3D scene perception. Please refer to the [official github repository](https://github.com/open-mmlab/OpenPCDet) for more information.
 
 -  Parts of our Code refer to <a href="https://github.com/qiqihaer/3DSSD-pytorch-openPCDet">3DSSD-pytorch-openPCDet</a> library and the the recent work <a href="https://github.com/blakechen97/SASA">SASA</a>.
 
